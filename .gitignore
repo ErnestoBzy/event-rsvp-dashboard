@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Next.js build artifacts
+.next/
+out/
+
+# Build / coverage
+coverage/
+dist/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Temporary local scripts (one-off helpers, not part of the codebase)
+update-pw.mjs
+check-auth.mjs
+create-auth.mjs
+verify-login.mjs
+
+# Course materials tracked by outer vibe-coding repo
+AGENTS.md
+SKILLS.md
+
+# TypeScript build info
+tsconfig.tsbuildinfo
